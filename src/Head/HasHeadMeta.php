@@ -15,8 +15,7 @@ namespace Teme\Contracts\Head;
 /**
  * A plugin granted pages.head that adds `<meta>` tags to public pages' heads.
  * Core escapes and draws them; a plugin's tag wins over core's own with the
- * same name or property, except `robots`, which is laid over core's and can
- * only make the page more private.
+ * same name or property.
  *
  * @since 1.1.0
  */
